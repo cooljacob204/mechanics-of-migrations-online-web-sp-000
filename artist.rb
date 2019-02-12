@@ -1,4 +1,4 @@
 class Artist < ActiveRecord::Base
-  def intialize
+  def initialize
   end
 end
