@@ -13,7 +13,9 @@ Bundler.require
 ActiveRecord::Base.establish_connection(
   :adapter => "sqlite3",
   :database => "db/artists.sqlite"
-)sql = <<-SQL
+)
+
+sql = <<-SQL
   CREATE TABLE IF NOT EXISTS artists (
   id INTEGER PRIMARY KEY,
   name TEXT,
