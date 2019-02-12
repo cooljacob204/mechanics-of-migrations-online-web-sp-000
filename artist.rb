@@ -1,4 +1,6 @@
 class Artist < ActiveRecord::Base
-  def initialize
+  attr_reader :name, :genre, :age, :hometown
+  def initialize(attr**)
+    
   end
 end
